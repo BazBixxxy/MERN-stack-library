@@ -1,0 +1,64 @@
+.card {
+  /* width: 300px; */
+  padding: 2rem;
+  padding-bottom: 1rem;
+  background-color: var(--white-text);
+  border-radius: 5px;
+}
+
+.title{
+  height: 45px;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 0.7rem;
+}
+
+.author,
+.pages {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+}
+
+.description {
+  font-size: 0.9rem;
+}
+
+.desc-area {
+  background-color: white;
+  height: 160px;
+  font-size: 0.8rem;
+  /* padding-left: 1rem; */
+  padding: 5px;
+  text-wrap: wrap;
+  border-radius: 2px;
+}
+
+.button-area {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.edit,
+.delete {
+  padding: 10px;
+  color: var(--white-text);
+  background-color: var(--standard-color);
+  width: 90px;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
+.edit:hover,
+.delete:hover {
+  background-color: var(--hover-color);
+}
+
+.delete:hover{
+  background-color: rgb(164, 0, 0);
+}

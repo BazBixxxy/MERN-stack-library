@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  font-weight: 100;
+  color: var(--standard-color);
+}
+
+:root {
+  --text-color: hsl(0, 0%, 17%);
+  --white-text: whitesmoke;
+  --standard-color: hsl(218, 40%, 34%);
+  --hover-color: hsl(218, 40%, 30%);
+}
+
+input {
+  height: 2.5rem;
+  border: none;
+  /* min-width: 200px; */
+  width: 300px;
+  max-width: 400px;
+  margin-left: 12px;
+  border-radius: 100px;
+  padding: 1rem;
+}
+
+li {
+  list-style: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}

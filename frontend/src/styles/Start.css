@@ -1,0 +1,32 @@
+.start {
+  padding: 2rem;
+  height: 100dvh;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  gap: 1rem;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0.158)),
+    url("https://cdn.pixabay.com/photo/2014/09/05/18/32/old-books-436498_1280.jpg");
+  background-size: cover;
+  background-position: center;
+  color: var(--white-text);
+}
+
+.home-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.4em;
+  color: var(--white-text);
+}
+
+.home-container p {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  color: var(--white-text);
+}
+
+.library {
+  padding: 0.7rem;
+  color: var(--white-text);
+  background-color: var(--standard-color);
+  border-radius: 10px;
+}

@@ -1,0 +1,9 @@
+.home {
+  margin-top: 130px;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem;
+}
