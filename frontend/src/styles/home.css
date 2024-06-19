@@ -2,8 +2,14 @@
   margin-top: 130px;
   padding-left: 40px;
   padding-right: 40px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
   gap: 1rem;
+}
+
+.show-more-button {
+  padding-left: 40px;
+  font-size: 1rem;
+  padding-bottom: 1rem;
 }

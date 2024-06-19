@@ -27,7 +27,14 @@ app.post("/api/post", async (req, res) => {
 // reading all books from the database
 app.get("/api/books", async (req, res) => {
   try {
-    const books = await Book.find({});
+    const limit = parseInt(req.query.limit) || 8;
+    const startIndex = parseInt(req.query.startIndex) || 0;
+    const order = req.query.order || "desc";
+    const sort = req.query.sort || "createdAt";
+    const books = await Book.find({})
+      .sort({ [sort]: order })
+      .limit(limit)
+      .skip(startIndex);
     res.status(200).json(books);
   } catch (error) {
     res.status(404).json({ message: error.message });
